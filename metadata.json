@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Vídeos Animados para Açaiterias",
+  "description": "Página de vendas de alta conversão de 35 Vídeos Animados para Açaiterias + Bônus Exclusivos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

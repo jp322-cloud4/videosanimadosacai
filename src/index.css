@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-whatsapp: "Roboto", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+
+  --color-acai-purple: #4A126C;
+  --color-acai-purple-dark: #32084B;
+  --color-banana-yellow: #EFB80B;
+  --color-banana-yellow-light: #FFF066;
+  --color-acai-beige: #FAF4FD;
+  --color-acai-light: #FEFBFF;
+  --color-acai-charcoal: #1E0827;
+}
+
+/* Custom açaí decorative classes & pulse animations */
+@keyframes acaiDrip {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+
+@keyframes slowPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.02); }
+}
+
+.animate-acai {
+  animation: acaiDrip 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: slowPulse 4s ease-in-out infinite;
+}
+
